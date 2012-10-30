@@ -1,6 +1,6 @@
 # PeriodicTable
 
-TODO: Write a gem description
+
 
 ## Installation
 
@@ -18,7 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+require 'periodic_table'
+ #Look up data for an element by name
+ PeriodicTable.lookup 'oxygen'
+ 
 
 ## Contributing
 
